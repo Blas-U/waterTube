@@ -145,6 +145,6 @@ for t in range(nsteps):
 # r2 = 1-(m/mean)
 # print ("r2", r2)
 r2 = rSquared(x_measured, y_modeled)
-print(r2)
+print("r2 =",r2)
 
 graph.keepOpen()
